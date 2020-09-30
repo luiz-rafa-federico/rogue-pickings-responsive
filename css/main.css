@@ -1,0 +1,213 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	flex-basis: 100%;
+}
+
+.container{
+	max-width: 767px;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+h1, h2, h3, h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 1.875em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.125em;
+}
+
+h4 {
+	font-size: 0.75em;
+}
+
+p {
+	font-size: 0.875em;
+    padding: 0 1.875em;
+}
+
+/*The widths are in a percentage!*/
+header {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+header h1 {
+	padding-bottom: 0.5em;
+	border-bottom: 0.125em solid #77a466;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	flex-basis: 100%;
+}
+
+header h1 span {
+	color: #77a466;
+}
+
+header nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+header nav ul {
+	padding: 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+header nav ul li {
+	text-transform: uppercase;	
+	font-weight: 700;
+	font-size: 0.875em;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 100%;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+	padding: 0 0 2em 0;
+}
+
+/*The widths are in a percentage!*/
+.top-section, .bottom-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+.main-image img {
+	width: 100%;
+	border-top: 0.188em solid #77a466;
+	border-bottom: 0.188em solid #77a466;
+}
+
+.main-title {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-flow: row wrap;
+}
+
+.main-title h3 {
+	padding: 0.188em 0;
+	color: #77a466;
+	line-height: 1.5em;
+}
+
+.main-title p {
+	padding: 0;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+.section-one, .section-two, .section-three {
+	flex-basis: 100%;
+	border-top: 0.063em solid #eee;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-flow: row wrap;
+}
+
+.section-one h4 {
+	flex-basis: 100%;	
+}
+
+.section-two h4, .section-three h4 {
+	flex-basis: 100%;
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-flow: row wrap;
+	padding: 0;
+}
+
+.menu li {
+	padding-bottom: 0.625em	;
+	color:#77a466;
+	flex-basis: 100%;
+}
+
+.reviews {
+	color: #333;
+	font-size: 1em;
+	padding: 0;
+	line-height: 1.5em;
+}
+
+.address {
+	font-size: 1em;
+	padding: 0;
+	line-height: 1.5em;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	border-top: 0.188em solid #eee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	flex-basis: 100%;
+}
+
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 0.875em;
+}
+
+
+
+/********** TABLETS (min-width: 768px) **********/
+@media (min-width: 768px) {
+}
+
+
+
+
+
+
+
+
+/********** DESKTOPS (min-width: 1200px) **********/
+@media (min-width: 1200px) {
+	
+}
