@@ -58,7 +58,7 @@ header h1 {
 	padding-bottom: 0.5em;
 	border-bottom: 0.125em solid #77a466;
 	justify-content: center;
-	align-content: center;
+	align-items: center;
 	text-align: center;
 	flex-basis: 100%;
 }
